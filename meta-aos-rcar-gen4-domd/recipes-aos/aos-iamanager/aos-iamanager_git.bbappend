@@ -1,8 +1,5 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-SRC_URI = "git://git@github.com/al1img/aos_iamanager.git;branch=gen4_integration;protocol=ssh"
-SRCREV = "${AUTOREV}"
-
 SRC_URI_append = "\
     file://aos_iamanager.cfg \
     file://aos-iamanager.service \
