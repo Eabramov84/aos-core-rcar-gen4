@@ -3,7 +3,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 RENESASOTA_IMPORT = "github.com/aoscloud/aos-core-rcar-gen4"
 
 SRC_URI_append = " \
-    git://git@${RENESASOTA_IMPORT}.git;branch=main;protocol=ssh;name=renesasota;destsuffix=${S}/src/${GO_IMPORT}/vendor/${RENESASOTA_IMPORT} \
+    git://git@${RENESASOTA_IMPORT}.git;branch=go18;protocol=ssh;name=renesasota;destsuffix=${S}/src/${GO_IMPORT}/vendor/${RENESASOTA_IMPORT} \
 "
 
 SRCREV_FORMAT = "renesasota"
